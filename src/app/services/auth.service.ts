@@ -30,4 +30,15 @@ export class AuthService {
     );
     return user;
   }
+
+  getErrorMessage(error: string) {
+    switch (error) {
+      case 'EMAIL_NOT_FOUND':
+        return 'Email not found';
+      case 'INVALID_PASSWORD':
+        return 'Invalid Password';
+      default:
+        return 'username or password is incorrect';
+    }
+  }
 }
