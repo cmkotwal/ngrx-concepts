@@ -4,7 +4,6 @@
 
 export const environment = {
   production: false,
-  FIRBASE_API_KEY: 'AIzaSyDtQm3KiLueZNzT2fIxnU8F2Vm0Y9OuVdU',
 };
 
 /*
